@@ -1,6 +1,8 @@
 # EDA FontoXML sidebar
 This EDIA sidebar connects the Fonto Editor with the EDIA metadata API.
 
+![alt text](sidebar.png)
+
 # Installation
 3. Copy the `edia-analysis-sidebar` directory to the `packages` directory of the fontoxml editor
 2. Replace the API_KEY and DEMO_KEY in the `edia-analysis-sidebar/src/EdiaAnalysisSidebar.jsx` file 
