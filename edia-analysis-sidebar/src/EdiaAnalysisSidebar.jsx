@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Button, Flex, Form, FormRow, Label, List, ListItem, SidebarHeader, SidebarInlay} from 'fds/components';
+import {Button, Flex, Form, FormRow, Label, List, Text, Icon, ListItem, SidebarHeader, SidebarInlay} from 'fds/components';
 import selectionManager from 'fontoxml-selection/src/selectionManager.js'
 import documentsManager from 'fontoxml-documents/src/documentsManager.js'
 import './EdiaAnalysisSidebar.css';
@@ -188,6 +188,24 @@ export default class EdiaAnalysisSidebar extends Component {
                 </FormRow>
               </Flex>
             </Form>
+          </Flex>
+        </SidebarInlay>
+        <Flex>&nbsp;</Flex>
+        <SidebarInlay>
+          <Flex flexDirection="column" >
+            {/*  <Icon icon={"info"} size={"s"}></Icon>*/}
+            <Text>
+              <p>Dear user,</p>
+              <p>This functionality allows for automated metadata tagging of CEFR readability, topics,
+                and keywords. For now, this service only works for the <b class="lang">English</b> language. <b class="lang">Dutch</b> will be added soon.</p>
+              <p>
+                Kind regards,
+              </p>
+              <p>
+                The EDIA development team.
+              </p>
+              <p>&nbsp;</p>
+            </Text>
           </Flex>
         </SidebarInlay>
       </Flex>
